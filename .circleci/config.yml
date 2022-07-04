@@ -7,7 +7,7 @@ jobs:
     steps:
       - checkout
       - run: yarn set version berry
-      - run: yarn add -dev eslint
+      - run: yarn add --dev eslint
       - run: yarn add eslint
       - run: echo "Hello World"
       - run: pwd && ls -la
